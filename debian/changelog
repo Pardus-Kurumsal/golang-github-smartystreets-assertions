@@ -1,0 +1,6 @@
+golang-github-smartystreets-assertions (0.0~git20160118) zesty; urgency=medium
+
+  [ Deepin Packages Builder ]
+  * Initial release.
+
+ -- lilongyu <leaeasy@gmail.com>  Mon, 31 Jul 2017 15:50:58 +0800

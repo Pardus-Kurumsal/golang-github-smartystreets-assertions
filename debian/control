@@ -1,0 +1,16 @@
+Source: golang-github-smartystreets-assertions
+Section: devel
+Priority: extra
+Maintainer: Sysdev <sysdev@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),golang-go, dh-golang, golang-golang-x-net-dev
+Standards-Version: 3.9.5
+Homepage: https://github.com/jtolds/gls
+
+Package: golang-github-smartystreets-assertions-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: All assertions which are referenced in goconvey packages
+ Package assertions contains the implementations for all assertions
+ which are referenced in goconvey's convey package
+ .
+ This package contains the source.

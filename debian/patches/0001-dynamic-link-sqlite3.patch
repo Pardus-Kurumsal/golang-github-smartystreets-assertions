@@ -1,0 +1,13 @@
+Description: link sqlite3 provided by distribution.
+
+--- golang-sqlite3-0.0~git20140913.orig/sqlite3_other.go
++++ golang-sqlite3-0.0~git20140913/sqlite3_other.go
+@@ -8,7 +8,7 @@ package sqlite3
+ 
+ /*
+ #cgo CFLAGS: -I.
+-#cgo linux LDFLAGS: -ldl
++#cgo linux LDFLAGS: -ldl -lsqlite3
+ #cgo CFLAGS: -DSQLITE_ENABLE_RTREE
+ */
+ import "C"
